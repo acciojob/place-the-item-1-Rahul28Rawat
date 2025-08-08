@@ -1,2 +1,16 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 10px;
+}
 
-/* Your CSS Code here. */
+.item {
+  width: 150px;
+  height: 100px;
+  background-color: tomato;
+  margin-bottom: 10px;
+}
